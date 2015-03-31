@@ -1,2 +1,2 @@
 # SearchAlgorithms
-Please see the PDF file for assignment detail.
+Please see the PDF file for the program explanation.
