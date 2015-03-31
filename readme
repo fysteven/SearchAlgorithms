@@ -1,0 +1,30 @@
+There may be some problems when "make" the files after the first time.
+So, please use "make clean" to make sure there is no such a problem.
+
+However, the files I upload is completely OKAY, when I use 
+"javac agent.java"
+and
+"java agent".
+
+The UCS, BFS, and UCS are almost the same algorithm process except the data structure "open" which is used for storing in different ways.
+
+In UCS, I use priority queue, which makes sure that the order of its content is measured by path cost, and then by alphabetics.
+
+In BFS, the order of contents of the priority queue is by node depth and, then, alphabetical.
+
+In DFS, the order of that is by node depth and then alphabetical, but is is decreasingly.
+
+The general process in this program is as following:
+
+Read the "intput.txt" file into the program and analyze it.
+
+Store sections of people's information such as name, id number, and depth and the matrix of people's connection relationships.
+
+Execute the algorithm according to the method which is from input.txt.
+
+In my program, I store the information of people into the data structre in a Java Class, which is called "Vertex".
+
+
+Output all the solution which includes the path cost, the expansion process of nodes, and the shortest path.
+
+Apology about the late submission. I should have started to do this homework earlier.
